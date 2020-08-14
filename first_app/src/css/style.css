@@ -1,0 +1,142 @@
+body {
+  color: #333;
+  margin: 0;
+  padding: 0;
+
+  background-color: #FFF;
+}
+
+body #root {
+  width: 80%;
+  height: 100vh;
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+}
+
+body #root div {
+  width: 70%;
+
+  margin: auto;
+  padding: 50px;
+  background-color: #FFF;
+
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px #BBB;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body #root div form {
+  width: 70%;
+
+  margin: auto;
+
+  display: flex;
+  flex-flow: column;
+}
+
+body #root div form label {
+  width: 100%;
+  margin: 10px auto;
+
+  display: flex;
+  flex-flow: column;
+}
+
+body #root div form label p {
+  width: 100%;
+  margin: auto;
+
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #444;
+}
+
+body #root div form label input {
+  width: 90%;
+  margin: auto;
+
+  text-align: center;
+  color: #777;
+
+  padding: 10px;
+  outline: none;
+
+  border: none;
+  border-bottom: 1px solid #333;
+}
+
+body #root div form #send {
+  padding: 10px 30px;
+  color: #CCC;
+  border: none;
+  border-radius: 20px;
+  background-color: #333;
+  margin: auto;
+  outline: none;
+  text-transform: uppercase;
+} #send:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+
+body #root div h1 {
+  width: 90%;
+
+  margin: 20px auto;
+
+  border: none;
+  border-top: 1px solid #AAA;
+
+  padding-top: 10px;
+}
+
+body #root div h2 {
+  width: 90%;
+
+  margin: 10px auto;
+
+  border: none;
+  border-bottom: 1px solid #AAA;
+  text-align: center;
+
+  padding-top: 10px;
+}
+
+body #root div h3 {
+  width: 90%;
+
+  margin: auto;
+
+  border: none;
+  text-align: center;
+
+  color: rgb(0, 162, 255);
+}
+
+body #root div h3 button {
+  margin: 10px 50px;
+
+  background-color: rgb(201, 5, 54);
+  color: #FFF;
+}
+
+body #root div button {
+  padding: 10px 30px;
+  color: #CCC;
+  border: none;
+  border-radius: 20px;
+  background-color: #333;
+  margin: auto;
+  outline: none;
+  text-transform: uppercase;
+} button:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+}
